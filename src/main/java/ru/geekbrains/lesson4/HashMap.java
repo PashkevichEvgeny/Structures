@@ -31,6 +31,10 @@ public class HashMap <K, V> {
         return buf;
     }
 
+    /*
+    Распечатайте все элементы структуры HashMap переопределив метод toString() - самый простой вариант.
+     */
+
     @Override
     public String toString(){
         StringBuilder stringBuilder = new StringBuilder();
